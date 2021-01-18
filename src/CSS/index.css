@@ -1,0 +1,15 @@
+        /* je peux mettre un commentaire en CSS*/
+    /* Ceci est un commentaire
+sur plusieurs lignes*/
+    
+    h1 {
+        background-color: black;
+        color: white;
+    }
+    /* . pour sélectionner une classe et # pour sélectionner des ID*/
+    
+    .PoliceMax {
+        font-size: 10rem;
+        color: chartreuse;
+        background-color: yellow;
+        padding: 5rem;

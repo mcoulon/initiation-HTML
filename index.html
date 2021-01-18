@@ -1,11 +1,167 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="src/CSS/index.css">
 </head>
+
 <body>
-   <h1>Hello World</h1> 
+    <header>
+        <img src="src/IMG//logo.png" alt="ceci est mon logo">
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="Qui sommes nous">qui sommes nous</a></li>
+                <li><a href="Contact">contact</a></li>
+                <li><a href="service">service</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Ceci est un commentaire -->
+    <h1>Mes balises titres</h1>
+    <h2>Balise titre h2</h2>
+    <h3>Balise titre h3</h3>
+    <h4>Balise titre h4</h4>
+    <h5>Balise titre h5</h5>
+    <h6>Balise titre h6</h6>
+    <!-- balise EM pour emphase cad attirer l'attention sur une série de mots importants -->
+    <!-- balise I pour italique -->
+    <p class="PoliceMax"><mark>ipsum dolor sit amet consectetur,</mark></p>
+    <i><p>adipisicing elit. Rerum molestias voluptatum ullam quaerat aperiam,</i></p>
+    paliquam omnis architecto beatae ex quod molestiae excepturi deleniti alias,
+    <strong><p> sint nemo corrupti assumenda, nostrum pariatur.</p></strong>
+    <hr>
+    <!-- HR est une balise autofermante (pas besoin d'autofermer la balise) -->
+    <del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, incidunt ipsa dignissimos vitae, molestiae saepe, eius amet quam provident voluptates inventore porro? Consectetur voluptatum, architecto deserunt atque eligendi reprehenderit eos?</del>
+    </p>
+
+    <a href="http://google.be" title="GOOGLE" target="_blank" rel="noopener">Cliquez ici pour vous rendre sur google</a>
+    <!-- a href="#" en attendant quand on a pas le lien (en cours de développement) -->
+    <!-- Target permet d'ouvrir un hypertext dans un nouvel onglet -->
+    <!-- rel noopener permet d'éviter la fuite de données le site cible n'a pas la possibilité de puiser les information de mon site (on le met en général quand ça renvoie vers un site externe) -->
+    <img src="https://jardinage.lemonde.fr/images/dossiers/2017-08/chaton-161238.jpg" alt="Image de chaton" srcset="">
+
+    <h3>Listes ordonnées</h3>
+    <ol start="5">
+        <li>Premier élément</li>
+        <li>second élement</li>
+        <li>trois element</li>
+        <li>Quatrieme élement</li>
+    </ol>
+    <ol start="4" reversed>
+        <li>Premier élément</li>
+        <li>second élement</li>
+        <li>trois element</li>
+        <li>Quatrieme élement</li>
+    </ol>
+
+
+    <h3>Liste non ordonnées</h3>
+    <ul>
+        <li><a href="#" target="_blank"> Premier élément</a></li>
+        <li>second élement</li>
+        <li>trois element</li>
+        <li>Quatrieme élement</li>
+    </ul>
+
+    <H3>Les tableaux</H3>
+    <table>
+        <caption>Ceci est le titre de mon tableau</caption>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Duck</td>
+            <td>RIRI</td>
+            <td>13</td>
+            <td>riri@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Duck</td>
+            <td>fifi</td>
+            <td>11</td>
+            <td>fifififi@gmail.com</td>
+            <tr>
+                <td>VD</td>
+                <td>JC</td>
+                <td>1+1</td>
+                <td>ONZE@gmail.com</td>
+            </tr>
+        </tr>
+    </table>
+
+    <form>
+
+        <p><input type="texte" placeholder="Nom"></p>
+        <p><input type="checkbox"></p>
+        <p><input type="datetime-local"></p>
+        <p><input src=""></p>
+        <p><input type="month"></p>
+        <p><input type="number"></p>
+        <p><input type="password"></p>
+        <p><input type="range"></p>
+        <p><input type="radio"><span>Bonjour</span><input type="radio"><span>au revoir</span></p>
+        <p><input type="reset"></p>
+        <p><input type="time"></p>
+        <p><input type="search"></p>
+        <p><input type="tel"></p>
+        <p><input type="url"></p>
+        <p><input type="week"></p>
+
+
+        <div>
+            <select>
+            <option value="Pommes">Pommes</option>
+            <option value="Poires">Poires</option>
+            <option value="Pêches">Pêches</option>
+        </select>
+        </div>
+
+        <p><label> Entrez votre nom</label></p>
+        <p><input type="texte" placeholder="Nom"></p>
+
+
+        <button type="submit">Valider mon formulaire</button>
+
+    </form>
+
+    <div>
+        <textarea cols="50" rows="30"> </textarea>
+
+    </div>
+
+
+    <h3 class="PoliceMax">Les types de balises (DISPLAY)</h3>
+    <!-- Balise bloc = toute la largeur de l'écran, balise inline = juste l'espace dont elle a besoin -->
+    <p>form, h1 a h6, hr, ul,ol,li,article et la balise table sont des balises de type bloc</p>
+    <p>a,br, button,em,img,input,label,meter,progress,select,,span,strong,textarea sont des balises de type inline</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi molestiae, consequatur exercitationem saepe obcaecati praesentium totam asperiores porro? Nam illum ipsa dolore
+        <span>provident distinctio ipsum rerum debitis dicta recusandae exercitationem!Aliquid nihil, consequatur a enim, quod vero velit, </span>
+        <span style="color: blue;">repellendus consequuntur ab consectetur culpa. </span>
+        <!-- span est une balise "fourre tout" qui permettra par la suite d'afficher du CSS spécifique sur cette partie du texte -->
+        Nobis quaerat temporibus, sed rem molestias libero amet dolorum dicta aliquid! Voluptatem hic tenetur suscipit quas quae.</p>
+
+
+    <section style="background-color: khaki; margin-bottom: 5em;">
+        <h3>ceci est le contenu de ma section</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique earum dolorum sunt harum nihil, doloremque ullam cum eveniet rerum modi quae quasi vitae illum iusto, neque repellendus, blanditiis quidem rem?</p>
+        <form>
+            <input type="text"><br>
+            <input type="email"><br>
+            <button type="submit">Valider</button>
+        </form>
+    </section>
+    <p>en dehors de ma section</p>
+    <footer style="background-color: magenta; padding: 2rem;">
+        <p style="color: mintcream;">2020 - Max Coulon</p>
+    </footer>
 </body>
+
 </html>
