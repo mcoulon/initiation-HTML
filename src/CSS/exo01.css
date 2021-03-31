@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: green;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.50rem;
+}
+
+div,
+span {
+    font-weight: bold;
+    color: coral;
+}
+
+
+/* les combinateurs */
+
+div span {
+    color: darkblue;
+}
+
+
+/* les combinateurs enfants */
+
+div>span {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+
+/*la classe*/
+
+.maClasse {
+    color: blue;
+}
+
+.rouge {
+    color: red;
+}
+
+.grasRouge {
+    color: red;
+    font-weight: bold;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+#monid {
+    color: blanchedalmond;
+}
+
+
+/* Les sélecteurs d'attributs */
+
+a[href="http://google.be"] {
+    color: brown;
+}

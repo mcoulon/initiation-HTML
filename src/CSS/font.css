@@ -1,0 +1,71 @@
+.arial {
+    font-family: Arial;
+}
+
+.impact {
+    font-family: Impact;
+}
+
+.times {
+    font-family: Times;
+}
+
+.courier {
+    font-family: Courier;
+}
+
+.verdana {
+    font-family: Verdana;
+}
+
+.garamond {
+    font-family: Garamond;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.times-new-roman {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.gras {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.decoration {
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+.decoration2 {
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+.decoration3 {
+    text-decoration: line-through red solid;
+    text-transform: capitalize;
+}
+
+.decoration4 {
+    text-decoration: line-through red wavy;
+}

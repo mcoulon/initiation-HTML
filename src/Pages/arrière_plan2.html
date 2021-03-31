@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrières plan en CSS</title>
+    <link rel="stylesheet" href="../CSS/arrière_plan2.css">
+</head>
+
+<body>
+    <h1>Ceci est une intégration de background en CSS</h1>
+    <ul>
+        <a href="../Pages/arrière_plan3.html">Il est également possible d'intégrer une couleur de fond</a></ul>
+    <p>L'intégration d'un background est assez facile, il vous suffit pour ça de créer une règle CSS pour le body en lui indiquant que l'image doit être intégrée en background-image</p>
+    <p><img src="../IMG/Etape1BgCss.PNG" alt="Code CSS du background-image"></p>
+    <p>On peut voir ici que l'image se répète sur la droite car l'image est trop petite pour la taille de la page. Il est possible de remédier à ça.
+        <p><img src="../IMG/BGrepeatdemo.PNG" alt="Image démontrant que le background se répète" height="20%" width="20%"></p>
+    </p>
+    <p>Il y a plusieurs manières de faire, on peut se dire qu'on ne veut que l'image ne se répète qu'une fois alors on utilisera <span>background-repeat: no-repeat;</span>
+        <p><img src="../IMG/Etape2_1BgCss.PNG" alt=""></p>
+    </p>
+    <p>Il y a une autre solution, celle de faire en sorte d'étirer ou rétrécir la taille de notre image en fonction de la page, c'est à dire faire en sorte que l'image occupe 100% de l'écran. On utilisera alors l'attribut suivant : <span>background-size: 100%;</span></p>
+    <div class="boite">
+        <p>
+            Il y a également la possibilité de mettre un background uniquement sur une autre balise, ici l'exemple avec une div
+        </p>
+        <p><img src="../IMG/Etape2_2BgCss.PNG" alt="" width="30%" height="30%"></p>
+        <p></p>
+    </div>
+    <p>On voit ici qu'il est possible d'avoir deux images de fond, ce n'est plus très lisible, mais il est possible de le faire.</p>
+    <p><img src="../IMG/Etape2_3BgCss.PNG" alt=""></p>
+    <p>On peut également placer une image dans une partie précise de l'écran, pour cela, il y a deux manières de faire : </p>
+    <p>La première est de lui indiquer ou on veut qu'elle aille en lui indiquant de cette façon : <span>background-position: top right;</span></p>
+    <p><img src="../IMG/Etape2_4BgCss.PNG" alt=""></p>
+    <p><img src="../IMG/Etape2_5BgCss.PNG" alt="" width="30%" height="30%"></p>
+    <p>Il est également possible de lui donner une position en pourcentage (par rapport à l'endroit ou l'image se situe sur la page) en utilisant l'attribut : <span> background-position: 100% 0%;</span> On voit qu'il se situe également en haut à droite car
+        le 100% lui indique qu'il doit être a droite et le 0% qu'il doit être en haut. Ce qui permet plus facilement d'intégrer une image à un endroit voulu. </p>
+    <p><img src="../IMG/Etape2_6BgCss.PNG" alt=""></p>
+
+
+</body>
+
+</html>
